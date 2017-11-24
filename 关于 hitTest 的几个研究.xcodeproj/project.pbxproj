@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC848AC61FC564BD00C94065 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC848AC51FC564BD00C94065 /* main.m */; };
+		CC848AC91FC564BD00C94065 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC848AC81FC564BD00C94065 /* AppDelegate.m */; };
+		CC848ACC1FC564BD00C94065 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC848ACB1FC564BD00C94065 /* ViewController.m */; };
+		CC848ACF1FC564BD00C94065 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC848ACD1FC564BD00C94065 /* Main.storyboard */; };
+		CC848AD11FC564BD00C94065 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC848AD01FC564BD00C94065 /* Assets.xcassets */; };
+		CC848AD41FC564BD00C94065 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC848AD21FC564BD00C94065 /* LaunchScreen.storyboard */; };
+		CC848ADD1FC565E300C94065 /* UIView+frame.m in Sources */ = {isa = PBXBuildFile; fileRef = CC848ADC1FC565E300C94065 /* UIView+frame.m */; };
+		CC848AE71FC5669600C94065 /* BeyondBounsController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC848AE51FC5669600C94065 /* BeyondBounsController.m */; };
+		CC848AE81FC5669600C94065 /* BeyondBounsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC848AE61FC5669600C94065 /* BeyondBounsController.xib */; };
+		CC848AEB1FC566A800C94065 /* SuperView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC848AEA1FC566A800C94065 /* SuperView.m */; };
+		CC848AEE1FC566C100C94065 /* ChildView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC848AED1FC566C100C94065 /* ChildView.m */; };
+		CC848AF31FC5692F00C94065 /* PenetrationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC848AF11FC5692F00C94065 /* PenetrationController.m */; };
+		CC848AF41FC5692F00C94065 /* PenetrationController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC848AF21FC5692F00C94065 /* PenetrationController.xib */; };
+		CC848AF71FC569B100C94065 /* PenetrationSuperView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC848AF61FC569B100C94065 /* PenetrationSuperView.m */; };
+		CC848AFA1FC569D600C94065 /* PenetrationChildView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC848AF91FC569D600C94065 /* PenetrationChildView.m */; };
+		CC848AFD1FC56C8400C94065 /* BlueAlphaView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC848AFC1FC56C8400C94065 /* BlueAlphaView.m */; };
+		CC848B001FC56CA300C94065 /* GreenView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC848AFF1FC56CA300C94065 /* GreenView.m */; };
+		CC848B041FC56DDD00C94065 /* EnLargeController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC848B031FC56DDD00C94065 /* EnLargeController.m */; };
+		CC848B061FC56E1A00C94065 /* EnLargeController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC848B051FC56E1A00C94065 /* EnLargeController.xib */; };
+		CC848B091FC56F6C00C94065 /* SmallButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CC848B081FC56F6C00C94065 /* SmallButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CC848AC11FC564BD00C94065 /* 关于 hitTest 的几个研究.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "关于 hitTest 的几个研究.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC848AC51FC564BD00C94065 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC848AC71FC564BD00C94065 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CC848AC81FC564BD00C94065 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CC848ACA1FC564BD00C94065 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CC848ACB1FC564BD00C94065 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CC848ACE1FC564BD00C94065 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC848AD01FC564BD00C94065 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC848AD31FC564BD00C94065 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC848AD51FC564BD00C94065 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC848ADB1FC565E300C94065 /* UIView+frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+frame.h"; sourceTree = "<group>"; };
+		CC848ADC1FC565E300C94065 /* UIView+frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+frame.m"; sourceTree = "<group>"; };
+		CC848AE41FC5669600C94065 /* BeyondBounsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeyondBounsController.h; sourceTree = "<group>"; };
+		CC848AE51FC5669600C94065 /* BeyondBounsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeyondBounsController.m; sourceTree = "<group>"; };
+		CC848AE61FC5669600C94065 /* BeyondBounsController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BeyondBounsController.xib; sourceTree = "<group>"; };
+		CC848AE91FC566A800C94065 /* SuperView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperView.h; sourceTree = "<group>"; };
+		CC848AEA1FC566A800C94065 /* SuperView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperView.m; sourceTree = "<group>"; };
+		CC848AEC1FC566C100C94065 /* ChildView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildView.h; sourceTree = "<group>"; };
+		CC848AED1FC566C100C94065 /* ChildView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildView.m; sourceTree = "<group>"; };
+		CC848AF01FC5692F00C94065 /* PenetrationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PenetrationController.h; sourceTree = "<group>"; };
+		CC848AF11FC5692F00C94065 /* PenetrationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PenetrationController.m; sourceTree = "<group>"; };
+		CC848AF21FC5692F00C94065 /* PenetrationController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PenetrationController.xib; sourceTree = "<group>"; };
+		CC848AF51FC569B100C94065 /* PenetrationSuperView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PenetrationSuperView.h; sourceTree = "<group>"; };
+		CC848AF61FC569B100C94065 /* PenetrationSuperView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PenetrationSuperView.m; sourceTree = "<group>"; };
+		CC848AF81FC569D600C94065 /* PenetrationChildView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PenetrationChildView.h; sourceTree = "<group>"; };
+		CC848AF91FC569D600C94065 /* PenetrationChildView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PenetrationChildView.m; sourceTree = "<group>"; };
+		CC848AFB1FC56C8400C94065 /* BlueAlphaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueAlphaView.h; sourceTree = "<group>"; };
+		CC848AFC1FC56C8400C94065 /* BlueAlphaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlueAlphaView.m; sourceTree = "<group>"; };
+		CC848AFE1FC56CA300C94065 /* GreenView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GreenView.h; sourceTree = "<group>"; };
+		CC848AFF1FC56CA300C94065 /* GreenView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GreenView.m; sourceTree = "<group>"; };
+		CC848B021FC56DDD00C94065 /* EnLargeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnLargeController.h; sourceTree = "<group>"; };
+		CC848B031FC56DDD00C94065 /* EnLargeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnLargeController.m; sourceTree = "<group>"; };
+		CC848B051FC56E1A00C94065 /* EnLargeController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EnLargeController.xib; sourceTree = "<group>"; };
+		CC848B071FC56F6C00C94065 /* SmallButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmallButton.h; sourceTree = "<group>"; };
+		CC848B081FC56F6C00C94065 /* SmallButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmallButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC848ABE1FC564BD00C94065 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC848AB81FC564BD00C94065 = {
+			isa = PBXGroup;
+			children = (
+				CC848AC31FC564BD00C94065 /* 关于 hitTest 的几个研究 */,
+				CC848AC21FC564BD00C94065 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC848AC21FC564BD00C94065 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC848AC11FC564BD00C94065 /* 关于 hitTest 的几个研究.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC848AC31FC564BD00C94065 /* 关于 hitTest 的几个研究 */ = {
+			isa = PBXGroup;
+			children = (
+				CC848ADB1FC565E300C94065 /* UIView+frame.h */,
+				CC848ADC1FC565E300C94065 /* UIView+frame.m */,
+				CC848AC71FC564BD00C94065 /* AppDelegate.h */,
+				CC848AC81FC564BD00C94065 /* AppDelegate.m */,
+				CC848ACA1FC564BD00C94065 /* ViewController.h */,
+				CC848ACB1FC564BD00C94065 /* ViewController.m */,
+				CC848B011FC56DCE00C94065 /* EnLargeSubView */,
+				CC848AEF1FC5691C00C94065 /* PenetrationController */,
+				CC848AE31FC5669600C94065 /* BeyondController */,
+				CC848ACD1FC564BD00C94065 /* Main.storyboard */,
+				CC848AD01FC564BD00C94065 /* Assets.xcassets */,
+				CC848AD21FC564BD00C94065 /* LaunchScreen.storyboard */,
+				CC848AD51FC564BD00C94065 /* Info.plist */,
+				CC848AC41FC564BD00C94065 /* Supporting Files */,
+			);
+			path = "关于 hitTest 的几个研究";
+			sourceTree = "<group>";
+		};
+		CC848AC41FC564BD00C94065 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC848AC51FC564BD00C94065 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC848AE31FC5669600C94065 /* BeyondController */ = {
+			isa = PBXGroup;
+			children = (
+				CC848AE41FC5669600C94065 /* BeyondBounsController.h */,
+				CC848AE51FC5669600C94065 /* BeyondBounsController.m */,
+				CC848AE91FC566A800C94065 /* SuperView.h */,
+				CC848AEA1FC566A800C94065 /* SuperView.m */,
+				CC848AEC1FC566C100C94065 /* ChildView.h */,
+				CC848AED1FC566C100C94065 /* ChildView.m */,
+				CC848AE61FC5669600C94065 /* BeyondBounsController.xib */,
+			);
+			path = BeyondController;
+			sourceTree = "<group>";
+		};
+		CC848AEF1FC5691C00C94065 /* PenetrationController */ = {
+			isa = PBXGroup;
+			children = (
+				CC848AF01FC5692F00C94065 /* PenetrationController.h */,
+				CC848AF11FC5692F00C94065 /* PenetrationController.m */,
+				CC848AF51FC569B100C94065 /* PenetrationSuperView.h */,
+				CC848AF61FC569B100C94065 /* PenetrationSuperView.m */,
+				CC848AF81FC569D600C94065 /* PenetrationChildView.h */,
+				CC848AF91FC569D600C94065 /* PenetrationChildView.m */,
+				CC848AFB1FC56C8400C94065 /* BlueAlphaView.h */,
+				CC848AFC1FC56C8400C94065 /* BlueAlphaView.m */,
+				CC848AFE1FC56CA300C94065 /* GreenView.h */,
+				CC848AFF1FC56CA300C94065 /* GreenView.m */,
+				CC848AF21FC5692F00C94065 /* PenetrationController.xib */,
+			);
+			path = PenetrationController;
+			sourceTree = "<group>";
+		};
+		CC848B011FC56DCE00C94065 /* EnLargeSubView */ = {
+			isa = PBXGroup;
+			children = (
+				CC848B021FC56DDD00C94065 /* EnLargeController.h */,
+				CC848B031FC56DDD00C94065 /* EnLargeController.m */,
+				CC848B051FC56E1A00C94065 /* EnLargeController.xib */,
+				CC848B071FC56F6C00C94065 /* SmallButton.h */,
+				CC848B081FC56F6C00C94065 /* SmallButton.m */,
+			);
+			path = EnLargeSubView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC848AC01FC564BD00C94065 /* 关于 hitTest 的几个研究 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC848AD81FC564BD00C94065 /* Build configuration list for PBXNativeTarget "关于 hitTest 的几个研究" */;
+			buildPhases = (
+				CC848ABD1FC564BD00C94065 /* Sources */,
+				CC848ABE1FC564BD00C94065 /* Frameworks */,
+				CC848ABF1FC564BD00C94065 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "关于 hitTest 的几个研究";
+			productName = "关于 hitTest 的几个研究";
+			productReference = CC848AC11FC564BD00C94065 /* 关于 hitTest 的几个研究.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC848AB91FC564BD00C94065 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = relax;
+				TargetAttributes = {
+					CC848AC01FC564BD00C94065 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CC848ABC1FC564BD00C94065 /* Build configuration list for PBXProject "关于 hitTest 的几个研究" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC848AB81FC564BD00C94065;
+			productRefGroup = CC848AC21FC564BD00C94065 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC848AC01FC564BD00C94065 /* 关于 hitTest 的几个研究 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC848ABF1FC564BD00C94065 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC848AF41FC5692F00C94065 /* PenetrationController.xib in Resources */,
+				CC848AD41FC564BD00C94065 /* LaunchScreen.storyboard in Resources */,
+				CC848B061FC56E1A00C94065 /* EnLargeController.xib in Resources */,
+				CC848AD11FC564BD00C94065 /* Assets.xcassets in Resources */,
+				CC848ACF1FC564BD00C94065 /* Main.storyboard in Resources */,
+				CC848AE81FC5669600C94065 /* BeyondBounsController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC848ABD1FC564BD00C94065 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC848AFD1FC56C8400C94065 /* BlueAlphaView.m in Sources */,
+				CC848AEE1FC566C100C94065 /* ChildView.m in Sources */,
+				CC848B041FC56DDD00C94065 /* EnLargeController.m in Sources */,
+				CC848B001FC56CA300C94065 /* GreenView.m in Sources */,
+				CC848AFA1FC569D600C94065 /* PenetrationChildView.m in Sources */,
+				CC848ADD1FC565E300C94065 /* UIView+frame.m in Sources */,
+				CC848ACC1FC564BD00C94065 /* ViewController.m in Sources */,
+				CC848AF71FC569B100C94065 /* PenetrationSuperView.m in Sources */,
+				CC848AC91FC564BD00C94065 /* AppDelegate.m in Sources */,
+				CC848B091FC56F6C00C94065 /* SmallButton.m in Sources */,
+				CC848AE71FC5669600C94065 /* BeyondBounsController.m in Sources */,
+				CC848AEB1FC566A800C94065 /* SuperView.m in Sources */,
+				CC848AC61FC564BD00C94065 /* main.m in Sources */,
+				CC848AF31FC5692F00C94065 /* PenetrationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CC848ACD1FC564BD00C94065 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC848ACE1FC564BD00C94065 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC848AD21FC564BD00C94065 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC848AD31FC564BD00C94065 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC848AD61FC564BD00C94065 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC848AD71FC564BD00C94065 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC848AD91FC564BD00C94065 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "关于 hitTest 的几个研究/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.relax.orginal.---hitTest------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CC848ADA1FC564BD00C94065 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "关于 hitTest 的几个研究/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.relax.orginal.---hitTest------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC848ABC1FC564BD00C94065 /* Build configuration list for PBXProject "关于 hitTest 的几个研究" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC848AD61FC564BD00C94065 /* Debug */,
+				CC848AD71FC564BD00C94065 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC848AD81FC564BD00C94065 /* Build configuration list for PBXNativeTarget "关于 hitTest 的几个研究" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC848AD91FC564BD00C94065 /* Debug */,
+				CC848ADA1FC564BD00C94065 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC848AB91FC564BD00C94065 /* Project object */;
+}
